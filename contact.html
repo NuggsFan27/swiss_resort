@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Stay & Ski in the Clouds</title>
+        <meta name="author" content="Ty Stines">
+        <meta name="description" content="Swiss Resort Final">
+        <link rel="stylesheet" href="final_styles_obfuscated.css">
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+    </head>
+
+    <body>
+        <header>
+            <h1>Stay & Ski in the Clouds</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Accomodations</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section id="form">
+                <h2>Contact Us</h2>
+                    <p> Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us!
+                        Required fields marked with a (<span class="required">*</span>).</p>
+            
+                    <img src="swiss-sunset.jpg" alt="Sunset view of the mountains in Switzerland" width="710" height="270" class="sunset">
+                
+
+                    <form action="https://wp.zybooks.com/form-viewer.php" method="POST" target="_blank">
+
+                    <label for="my-name">Name:<span class="required">*</span>
+                    <input type="text" name="my-name" id="my-name" required></label>
+
+                    <label for="my-email">Email:<span class="required">*</span>
+			        <input type="email" name="my-email" id="my-email" required></label>
+
+                    <label for="my-phone">Phone:<span class="required">*</span>
+			        <input type="tel" name="my-phone" id="my-phone" required></label>
+
+                    <fieldset>
+                        <legend>Preferred Method of Contact</legend>
+                        <input type="radio" name="contact-pref" id="pref-email" checked>
+                        <label for="pref-email">Email</label>
+                        <input type="radio" name="contact-pref" id="pref-phone">
+                        <label for="pref-phone">Phone</label>
+                    </fieldset>
+
+                    <label for="my-comments">Comments<span class="required">*</span>
+			        <textarea name="my-comments" id="my-comments" required></textarea></label>
+
+                    <input type="submit" name="my-submit" id="my-submit" value="Submit the Form">
+                </form>
+            </section>
+            
+        </main>
+
+        <footer>
+            <p>Copyright ©2023 - Stay and Ski in the Clouds</p>
+            <p>This site is for educational purposes only</p>
+        </footer>
+    </body>
